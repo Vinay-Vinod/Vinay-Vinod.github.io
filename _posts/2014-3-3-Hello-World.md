@@ -3,4 +3,8 @@ layout: post
 title: Test Page
 published: true
 ---
-## Actual test page!
+##This is a subheading
+
+-Now this should bea actaul text on the blog
+
+
