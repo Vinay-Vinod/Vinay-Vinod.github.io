@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Page
+title: Test Title
 published: true
 ---
 ## This is a subheading
