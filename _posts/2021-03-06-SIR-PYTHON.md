@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 ---
 
 ### Introduction - What are SIR Models
