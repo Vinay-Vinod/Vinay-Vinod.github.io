@@ -19,7 +19,7 @@ Additionally, with this information we can create four initial conditions.
 
 Knowing all of this, we are ready to write a system of differential equations for this model, or in other words, derivates for each dependent variable. Below is an image for the system of equations.
 
-![sys_eq.png]({{site.baseurl}}/_posts/sys_eq.png)
+![]({{site.baseurl}}/https://www.lewuathe.com/assets/img/posts/2020-03-11-covid-19-dynamics-with-sir-model/ode.png)
 
 
 
