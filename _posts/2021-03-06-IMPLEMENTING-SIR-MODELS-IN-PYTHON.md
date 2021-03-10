@@ -17,7 +17,7 @@ Additionally, with this information we can create four initial conditions.
 3. I(0) = I_0 (I-naught)
 4. R(0) = R_0 (R-naught)
 
-Knowing all of this, we are ready to write a system of differential equations for this model, or in other words, derivates for each dependent variable. Below is an image for the system of equations.
+Knowing all of this, we are ready to write a system of differential equations for this model, or in other words, derivatives for each dependent variable. Below is an image for the system of equations.
 
 ![sys_eq](/images/sys_eq.png)
 
