@@ -21,6 +21,6 @@ Knowing all of this, we are ready to write a system of differential equations fo
 
 ![sys_eq](/assets/images/sys_eq.png)
 
-test to see if image is present
+test to see if image is presently
 
 
