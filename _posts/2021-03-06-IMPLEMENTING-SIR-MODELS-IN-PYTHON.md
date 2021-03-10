@@ -44,7 +44,7 @@ Our final step is to actually get an array from the results of our differentiabl
 
 Below is an example of what your final product should look like. I also included a download link for the code 
 ![animation](/images/animation.gif)
-![GitHub_sir_model]:{{ https://github.com/Vinay-Vinod/Vinay-Vinod.github.io/blob/master/downloads/sir_model.py }}
+![GitHub_sir_model]:{{ http://github.com/Vinay-Vinod/Vinay-Vinod.github.io/blob/master/downloads/sir_model.py }}
 
 
 
