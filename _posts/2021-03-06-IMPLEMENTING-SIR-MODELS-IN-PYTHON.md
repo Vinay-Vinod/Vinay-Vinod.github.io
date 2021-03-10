@@ -25,6 +25,6 @@ Analyzing the first equation we have the susceptible multiplied by the infected,
 
 ### Coding SIR Models 
 
-Now that we have basic knowledge on the framework behind SIR models, we can finally implement them in Python. The first thing we have to do is import the necessary libraries. 
+Now that we have basic knowledge on the framework behind SIR models, we can finally implement them in Python. The first thing we have to do is import the necessary libraries
 
 
