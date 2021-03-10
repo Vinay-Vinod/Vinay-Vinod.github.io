@@ -21,5 +21,6 @@ Knowing all of this, we are ready to write a system of differential equations fo
 
 ![]({{site.baseurl}}/https://www.lewuathe.com/assets/img/posts/2020-03-11-covid-19-dynamics-with-sir-model/ode.png)
 
+test to see if image is present
 
 
