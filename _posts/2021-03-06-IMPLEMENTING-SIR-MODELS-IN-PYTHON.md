@@ -27,7 +27,7 @@ Analyzing the first equation we have the susceptible multiplied by the infected,
 
 ### Coding SIR Models 
 
-Now that we have basic knowledge on the framework behind SIR models, we can finally implement them in Python. The first thing we have to do is import the necessary libraries. We need numpy, matplotlib, odeint from scipy, and celluloid. 
+Now that we have basic knowledge on the framework behind SIR models, we can finally implement them in Python. The first thing we have to do is import the necessary libraries. We need numpy, matplotlib, odeint from scipy, and celluloid. If you are not familiar with any of these libraries, I suggest you learn them before reading the rest of this blog. 
 ![imports](/images/imports.png)
 
 Now we can create our initial parameters. We will need total population, total number of days, S_0, I_0, R_0, beta, and gamma. Some people like to just set beta and gamma right away, but I prefer a more customizable approach. As mentioned before, beta acts as the transmission rate. So, we can define the transmission rate as the average number of contacts a person has multiplied by the probability of infection. Gamma acts as the recovery rate, which we can define as one over the average recovery period. Additionally, we want to create an array that contains each day from our total number of days parameter in order to calculate each derivative and act as the x-axis in our graph. Finally, we want to create a variable that stores S_0, I_0, and R_0 so we can later pass that into a differential equation function. 
@@ -38,6 +38,8 @@ Next we can move on to creating a function to calculate each derivative. The arg
 
 Following this, it is time to create a function to plot our graph. While you can plot a regular graph, I prefer to plot an animated one, hence the reason to include celluloid. Here your parameters will be the time grid, susceptible, infected and recovered. I recommend you watch some tutorials if you do not know matplotlib at all and how to create graphs in Python. However, if you do know the library, then everything is pretty standard. The one small caveat is how we integrate the animation. The way celluloid works is that it takes a snapshot each time the program graphs something and strings it together in the final animation. In order to do this, you have to create an empty list for each variable you will plot. Then in a loop add each specific array (with the index of the loop) to each specific variable. Afterwards plot that variable and the loop will repeat for every point. At the end, finalize the animation and make sure to add __plt.show__ in order to see the graph.
 ![plot_sir](/images/plot_sir.png)
+
+Our final 
 
 
 
