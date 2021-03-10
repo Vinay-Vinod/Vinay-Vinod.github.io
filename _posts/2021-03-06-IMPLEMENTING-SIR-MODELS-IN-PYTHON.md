@@ -42,9 +42,10 @@ Following this, it is time to create a function to plot our graph. While you can
 Our final step is to actually get an array from the results of our differentiable equations and plot them in our plotting functions. Set a result variable equal to the odeint function with the parameters of the derivative function, initial conditions tuple, time grid, and the extra arguments of beta and gamma. Next you can create the susceptible, infected, and recovered variables and set them equal to a transposed version of the result array. Each variable will automatically be assigned to each row of the array. Finally, use the plotting function with your three variables and the time grid as the arguements.
 ![final_func](/images/final_func.png)
 
-Below is an example of what your final product should look like. I also included a download link for the code 
+Below is an example of what your final product should look like. 
 ![animation](/images/animation.gif)
-![GitHub_sir_model](/downloads/sir_model)
+
+Here is the link for this code file: https://github.com/Vinay-Vinod/Vinay-Vinod.github.io/blob/master/downloads/sir_model.py 
 
 
 
