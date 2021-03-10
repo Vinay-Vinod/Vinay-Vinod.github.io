@@ -19,7 +19,7 @@ Additionally, with this information we can create four initial conditions.
 
 Knowing all of this, we are ready to write a system of differential equations for this model, or in other words, derivates for each dependent variable. Below is an image for the system of equations.
 
-![sys_eq](/assets/images/sys_eq.png)
+![sys_eq](/images/sys_eq.png)
 
 test to see if image is presently
 
