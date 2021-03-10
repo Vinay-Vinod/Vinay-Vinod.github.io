@@ -10,6 +10,13 @@ SIR models are simple epidemological models that are meant to predict the behavi
 2. I(t) = number of infected people with respect to time
 3. R(t) = number of recovered people with respect to time
 
+Additionally, with this information we can create four initial conditions. 
 
-Additionally, from this information we can four initial conditions. 
+1. S(t) + I(t) + R(t) = N, where N is the total population
+2. S(0) = S_0 (S-naught)
+3. I(0) = I_0 (I-naught)
+4. R(0) = R_0 (R-naught)
+
+Knowing all of this, we are ready to write a system of differential equations for this model, or in other words, derivates for each dependent variable. 
+
 
