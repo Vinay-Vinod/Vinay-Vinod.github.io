@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-ribeye: Ribeye;
+  --font-limelight: Limelight;
+  --font-lemonada: Lemonada;
+  --font-single-day: "Single Day";
+  --font-road-rage: "Road Rage";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-6xs: 7px;
+  --font-size-7xs: 6px;
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* border radiuses */
+  --br-11xl: 30px;
+}

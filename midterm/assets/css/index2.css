@@ -1,0 +1,268 @@
+.menu1 {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 45px;
+  font-family: var(--font-road-rage);
+  display: inline-block;
+  width: 93px;
+  height: 47px;
+}
+
+.all-beef-kosher {
+  font-size: var(--font-size-7xs);
+}
+
+.bockwurst-12-container, .kielbasa-polish-container, .top-dog-frankfurter-container {
+  position: absolute;
+  top: 69px;
+  left: 10px;
+  display: inline-block;
+  width: 240px;
+  height: 24px;
+}
+.bockwurst-12-container, .kielbasa-polish-container {
+  top: 143px;
+}
+.kielbasa-polish-container {
+  top: 120px;
+}
+.mango-with-jalapeno-container, .the-wienie-veggie-container {
+  position: absolute;
+  top: 314px;
+  left: 7px;
+  display: inline-block;
+  width: 318px;
+  height: 24px;
+}
+.mango-with-jalapeno-container {
+  top: 266px;
+  left: 10px;
+  width: 262px;
+}
+.garlic-frankfurter-container, .lemon-chicken-container, .smoked-chicken-apple-container {
+  position: absolute;
+  top: 93px;
+  left: 10px;
+  display: inline-block;
+  width: 240px;
+  height: 24px;
+}
+.lemon-chicken-container, .smoked-chicken-apple-container {
+  top: 290px;
+  width: 264px;
+}
+.lemon-chicken-container {
+  top: 239px;
+  width: 298px;
+}
+.bratwurst-german-container, .calabrese-italian-container, .hot-link-lousiana-container {
+  position: absolute;
+  top: 191px;
+  left: 10px;
+  display: inline-block;
+  width: 270px;
+  height: 24px;
+}
+.calabrese-italian-container, .hot-link-lousiana-container {
+  top: 215px;
+  width: 311px;
+}
+.calabrese-italian-container {
+  top: 167px;
+  width: 256px;
+}
+
+.line-item {
+  position: absolute;
+  top: 87.03px;
+  left: 2.99px;
+  width: 253px;
+  height: 10.97px;
+}
+
+.line-child1, .line-child2, .line-child3,.line-child4,.line-child5,.line-child6,.line-child7,.line-child8,.line-inner,.line-div {
+  position: absolute;
+  top: 337.5px;
+  left: 3.5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 1px dashed var(--color-white);
+  box-sizing: border-box;
+  width: 246px;
+  height: 1px;
+}
+.line-child1,
+.line-child2,
+.line-child3,
+.line-child4,
+.line-child5,
+.line-child6,
+.line-child7,
+.line-child8,
+.line-div {
+  top: 309.5px;
+  left: 6.5px;
+}
+.line-child1,
+.line-child2,
+.line-child3,
+.line-child4,
+.line-child5,
+.line-child6,
+.line-child7,
+.line-child8 {
+  top: 283.5px;
+}
+.line-child2,
+.line-child3,
+.line-child4,
+.line-child5,
+.line-child6,
+.line-child7,
+.line-child8 {
+  top: 265.5px;
+}
+.line-child3,
+.line-child4,
+.line-child5,
+.line-child6,
+.line-child7,
+.line-child8 {
+  top: 233.5px;
+}
+.line-child4,
+.line-child5,
+.line-child6,
+.line-child7,
+.line-child8 {
+  top: 210.5px;
+}
+.line-child5,
+.line-child6,
+.line-child7,
+.line-child8 {
+  top: 184.5px;
+}
+.line-child6,
+.line-child7,
+.line-child8 {
+  top: 161.5px;
+}
+.line-child7,
+.line-child8 {
+  top: 138.5px;
+}
+.line-child8 {
+  top: 112.5px;
+}
+.image-3-icon {
+  position: absolute;
+  top: 75px;
+  left: 400px;
+  border-radius: var(--br-11xl);
+  width: 146px;
+  height: 113px;
+  object-fit: cover;
+}
+.spicy-lousiana-style,
+.top-dog-frankrurter {
+  position: absolute;
+  top: 192px;
+  left: 395px;
+  font-size: var(--font-size-6xs);
+  font-family: var(--font-single-day);
+  display: inline-block;
+  width: 165px;
+  height: 11px;
+}
+.top-dog-frankrurter {
+  top: 332px;
+  left: 447px;
+}
+.image-3-icon1 {
+  position: absolute;
+  top: 4px;
+  left: 86px;
+  width: 22px;
+  height: 43px;
+  object-fit: cover;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 73px;
+  height: 33px;
+}
+.menu2 {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 17px);
+  display: inline-block;
+  width: 54px;
+  height: 12px;
+}
+.group-div {
+  position: absolute;
+  top: 8px;
+  left: 268px;
+  width: 74px;
+  height: 33px;
+  font-family: var(--font-limelight);
+}
+.contact-us1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-block;
+  width: 89px;
+  height: 12px;
+}
+.contactus-parent1 {
+  position: absolute;
+  top: 8px;
+  left: 363px;
+  width: 99px;
+  height: 33px;
+  font-family: var(--font-limelight);
+}
+
+.catering1 {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  display: inline-block;
+  width: 89px;
+  height: 12px;
+}
+
+.catering-parent2 {
+  position: absolute;
+  top: 8px;
+  left: 457px;
+  width: 103px;
+  height: 33px;
+  font-family: var(--font-limelight);
+}
+
+.image-4-icon {
+  position: absolute;
+  top: 211px;
+  left: 400px;
+  border-radius: var(--br-11xl);
+  width: 153.06px;
+  height: 113px;
+  object-fit: cover;
+}
+
+.menu-parent {
+  position: relative;
+  background-color: #ff3b3b;
+  width: 100%;
+  height: 423px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-ribeye);
+}
