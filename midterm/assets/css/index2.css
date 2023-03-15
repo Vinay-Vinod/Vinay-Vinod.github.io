@@ -6,7 +6,7 @@
   font-family: var(--font-road-rage);
   display: inline-block;
   width: 93px;
-  height: 47px;
+  height: 4px;
 }
 
 .all-beef-kosher {
@@ -257,7 +257,7 @@
 
 .menu-parent {
   position: relative;
-  background-color: #ff3b3b;
+  background-color: red;
   width: 100%;
   height: 423px;
   overflow: hidden;
@@ -265,4 +265,8 @@
   font-size: var(--font-size-3xs);
   color: var(--color-white);
   font-family: var(--font-ribeye);
+}
+
+body {
+  background-color: red;
 }
