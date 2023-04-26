@@ -1,0 +1,166 @@
+.frame3-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+  }
+  
+  .backText {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+  }
+  
+  .backText span {
+    font-size: 30px;
+  }
+
+  .backText:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+ 
+  .chestText {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .chestText span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  
+
+  .inclineText {
+    top: 84px;
+    left: 544px;
+    color: rgba(0, 0, 0, 1);
+    width: 180px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jomhuria;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .smithText {
+    top: 321px;
+    left: 528px;
+    color: rgba(0, 0, 0, 1);
+    width: 258px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Jomhuria;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .gridContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+
+  .benchContainer {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .benchText {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    object-fit: contain;
+  }
+  
+  .bench-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+  
+  .bench-steps span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bench-gif {
+    margin-bottom: 20px;
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .declineContainer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+  }
+  
+
+  .declineText {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .decline-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+  
+  .decline-steps span {
+    margin-top: 10px;
+  }
+  
+  .decline-gif {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+ 
